@@ -17,8 +17,9 @@ li a{
     color:#ffffff;
 }
 li a:hover{
+    color: #ffffff;
     font-size: 3.1vw;
-    color: #fd5949;
+    border-bottom: #0077b5 solid 3px;
     
 }
 ul{
@@ -250,7 +251,9 @@ footer{
     }
     li a:hover{
         font-size: 2.5vw;
-        color: #fd5949;
+        color: white;
+        border-bottom: #0077b5 solid 4px;
+        
     }
     .icon {
         width: 40px;
