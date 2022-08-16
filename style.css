@@ -287,3 +287,68 @@ footer{
 .representamos__seccion h2{
     align-items: center;
 }
+
+
+
+
+
+
+
+/* ----------JUGADORES--------------- */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards{
+    background-color: white;
+    width:250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.cards:hover{
+    background-color: #285AEB;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.6s ease;
+}
+.card__image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card__titulo{
+    padding: 10px;
+    text-align: center;
+    background-color: #1da0f2b3;
+}
+.card__parrafo{
+    padding: 10px;
+}
+.jug-1{
+    background-image: url(./image/alvarez.png);
+}
+.jug-2{
+    background-image: url(./image/fedemateo.png);
+}
+.jug-3{
+    background-image: url(./image/banega.jpg);
+}
+.jug-4{
+    background-image: url(./image/godoy.jpg);
+}
+.cards a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.cards a:hover{
+    transform: scale(1.05);
+}
