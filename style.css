@@ -32,7 +32,6 @@ ul{
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    height: auto;
     align-items: center;
 
 }
@@ -274,4 +273,17 @@ footer{
 
 
 
+}
+
+/* -----------Sobre Nosotros---------- */
+.representamos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10px;
+    border: black 5px solid;
+}
+.representamos__seccion h2{
+    align-items: center;
 }
