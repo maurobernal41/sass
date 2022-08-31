@@ -1,0 +1,112 @@
+.noticias {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, auto);
+
+    grid-template-areas:
+        "noticia1"
+        "noticia3"
+        "noticia2"
+        "noticia4"
+        "banner ";
+
+    .noticias__articulo1 {
+        grid-area: noticia1;
+
+    }
+
+    .noticias__articulo2 {
+        grid-area: noticia2;
+    }
+
+    .noticias__articulo3 {
+        grid-area: noticia3;
+    }
+
+    .noticias__articulo4 {
+        grid-area: noticia4;
+    }
+
+    .aside {
+        grid-area: aside;
+    }
+
+    .carusel {
+        grid-area: banner;
+    }
+
+    @media (min-width: 780px)and (max-width:1023px) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(3, auto);
+
+        grid-template-areas:
+            "noticia1 noticia3"
+            "noticia2 noticia4"
+            "banner banner    ";
+
+        &__articulo1 {
+            grid-area: noticia1;
+
+        }
+
+        &__articulo2 {
+            grid-area: noticia2;
+        }
+
+        &__articulo3 {
+            grid-area: noticia3;
+        }
+
+        &__articulo4 {
+            grid-area: noticia4;
+        }
+
+        .aside {
+            grid-area: aside;
+        }
+
+        .carusel {
+            grid-area: banner;
+        }
+    }
+
+    @media(min-width: 1024px)and (max-width:1500px) {
+
+        display: grid;
+        grid-template-columns: 40% 40% 20%;
+        grid-template-rows: repeat(3, auto);
+
+        grid-template-areas:
+            "noticia1 noticia3 aside"
+            "noticia2 noticia4 aside"
+            "banner banner banner";
+
+        &__articulo1 {
+            grid-area: noticia1;
+
+        }
+
+        &__articulo2 {
+            grid-area: noticia2;
+        }
+
+        &__articulo3 {
+            grid-area: noticia3;
+        }
+
+        &__articulo4 {
+            grid-area: noticia4;
+        }
+
+        .aside {
+            grid-area: aside;
+        }
+
+        .carusel {
+            grid-area: banner;
+        }
+    }
+
+
+}

@@ -1,0 +1,98 @@
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+
+    h1 {
+        font-size: 39px;
+        text-align: letf;
+        padding-bottom: 20px;
+        color: #455a93;
+    }
+
+
+    h3 {
+        font-size: 16px;
+        padding-bottom: 30px;
+        color: #0e0e0e;
+    }
+
+    label {
+        display: block;
+        float: center;
+
+        span {
+            color: #455a93;
+        }
+    }
+
+
+    input {
+        background-color: #fbfbfb;
+        width: 408px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #7e96ef;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+
+        &:focus {
+            outline: 0;
+            border: 1px solid #172642;
+        }
+
+    }
+
+
+    textarea {
+        background-color: #fbfbfb;
+        width: 405px;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #7e96ef;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+
+        &:focus {
+            outline: 0;
+            border: 1px solid #172642;
+        }
+    }
+
+
+    .boton {
+        height: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: #7e96ef;
+        border-color: #7e96ef;
+        border-style: solid;
+        border-radius: 10px;
+        width: 420px;
+        cursor: pointer;
+
+        p {
+            color: #fff;
+        }
+    }
+
+    .aviso {
+        font-size: 13px;
+        color: #0e0e0e;
+    }
+}

@@ -1,0 +1,90 @@
+.hero1{
+    margin: 30px;
+
+    .hero__text1{
+        color: black;
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: rgba(128, 128, 128, 0.542);
+        height: 30vh;
+
+        h2{
+            margin-top: 30px;
+        }
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .cards{
+        background-color: white;
+        width:250px;
+        height: auto;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 5px 8px 12px black;
+        overflow: hidden;
+        
+
+        &:hover{
+            background-color: #285AEB;
+            color: white;
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 0.6s ease;
+        }
+
+        .card__image{
+            height: 200px;
+            margin-bottom: 15px;
+            background-size: cover;
+        }
+
+            .jug-1{
+                background-image: url(/image/alvarez.png);
+            }
+            .jug-2{
+                background-image: url(/image/fedemateo.png);
+            }
+            .jug-3{
+                background-image: url(/image/banega.jpg);
+            }
+            .jug-4{
+                background-image: url(/image/godoy.jpg);
+            }
+        
+            
+        
+        .card__titulo{
+            padding: 10px;
+            text-align: center;
+            background-color: #1da0f2b3;
+        }
+
+        .card__parrafo{
+            padding: 10px;
+        }
+
+        a{
+            background-color: black;
+            color: white;
+            padding: 15px 20px;
+            display: block;
+            text-align: center;
+            margin: 20px 50px;
+            text-decoration: none;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+
+        
+        
+        
+    }
+}

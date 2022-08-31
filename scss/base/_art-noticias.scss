@@ -1,0 +1,57 @@
+.articulos{
+    margin: 15px;
+    border: white solid 2px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+
+    figure{
+        display: inline-block;
+        border: solid 2px black;
+
+        img{
+            width: 100%;
+        }
+        figcaption{
+            // position: absolute;
+            background-color: rgba(0, 0, 0, 0.607);
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            color: white;
+            font-size: 1.4em;
+            text-align: center;
+        }
+    }    
+
+    h2 {
+        text-align: start;
+        background-color: #131b27;
+        color: white;
+        padding: 10px;
+    }
+
+    h4{
+        text-align: justify;
+        color: #0e4961;
+    }
+
+    p{
+        text-align: justify;
+        background-color: white;
+        color: black;
+        margin: 10px;
+    }
+
+}
+
+    
+
+
+
+.afa{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}

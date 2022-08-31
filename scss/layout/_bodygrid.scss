@@ -1,0 +1,29 @@
+body {
+    background-image: url(../image/stadium2.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+
+    }
+
+}

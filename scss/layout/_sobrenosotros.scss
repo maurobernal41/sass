@@ -1,0 +1,43 @@
+.representamos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10px;
+    border: black 5px solid;
+
+    .hero{
+        height: 60vh;
+        background-image: url(../image/oficina.jpg); 
+        background-size:cover; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &__text {
+        color: black;
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: rgba(128, 128, 128, 0.542);
+      }
+
+    .rep-1{
+        background-size: cover;
+        width: 70vw;
+        align-items: center;
+    }
+
+    .representamos__seccion h2{
+        align-items: center;
+        background-color: #ffffff74;
+        background-size: 150px;
+    }
+
+
+    .representamos__seccion h5{
+        background-color: #ffffff74;
+        text-align: justify;
+    }
+}
