@@ -1,14 +1,28 @@
 .noticias {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
 
     grid-template-areas:
+        "titulo"
         "noticia1"
         "noticia3"
         "noticia2"
         "noticia4"
         "banner ";
+
+    .titulo{
+        grid-area: titulo;
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        background-color: #1726427e;;
+        text-align: flex-end;
+        justify-content: center;
+        border: solid black 2px;
+
+      
+    }
 
     .noticias__articulo1 {
         grid-area: noticia1;
@@ -38,12 +52,17 @@
     @media (min-width: 780px)and (max-width:1023px) {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
 
         grid-template-areas:
+            "titulo    titulo"
             "noticia1 noticia3"
             "noticia2 noticia4"
             "banner banner    ";
+
+        .titulo{
+            grid-area: titulo;
+        }
 
         &__articulo1 {
             grid-area: noticia1;
@@ -75,12 +94,17 @@
 
         display: grid;
         grid-template-columns: 40% 40% 20%;
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
 
         grid-template-areas:
+            "titulo   titulo    titulo"
             "noticia1 noticia3 aside"
             "noticia2 noticia4 aside"
             "banner banner banner";
+
+        .titulo{
+            grid-area: titulo;
+        }
 
         &__articulo1 {
             grid-area: noticia1;

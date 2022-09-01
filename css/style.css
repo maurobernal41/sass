@@ -319,7 +319,8 @@ body .footer {
   height: 30vh;
 }
 .hero1 .hero__text1 h2 {
-  margin-top: 30px;
+  margin-top: 50px;
+  font-size: 10px;
 }
 
 .container {
@@ -384,8 +385,18 @@ body .footer {
 .noticias {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: "noticia1" "noticia3" "noticia2" "noticia4" "banner ";
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "titulo" "noticia1" "noticia3" "noticia2" "noticia4" "banner ";
+}
+.noticias .titulo {
+  grid-area: titulo;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  background-color: rgba(23, 38, 66, 0.4941176471);
+  text-align: flex-end;
+  justify-content: center;
+  border: solid black 2px;
 }
 .noticias .noticias__articulo1 {
   grid-area: noticia1;
@@ -409,8 +420,11 @@ body .footer {
   .noticias {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "noticia1 noticia3" "noticia2 noticia4" "banner banner    ";
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "titulo    titulo" "noticia1 noticia3" "noticia2 noticia4" "banner banner    ";
+  }
+  .noticias .titulo {
+    grid-area: titulo;
   }
   .noticias__articulo1 {
     grid-area: noticia1;
@@ -435,8 +449,11 @@ body .footer {
   .noticias {
     display: grid;
     grid-template-columns: 40% 40% 20%;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "noticia1 noticia3 aside" "noticia2 noticia4 aside" "banner banner banner";
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "titulo   titulo    titulo" "noticia1 noticia3 aside" "noticia2 noticia4 aside" "banner banner banner";
+  }
+  .noticias .titulo {
+    grid-area: titulo;
   }
   .noticias__articulo1 {
     grid-area: noticia1;
