@@ -1,3 +1,26 @@
+.hero2{
+    margin: 30px;
+
+    .hero__text2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px;
+        
+
+        background-color: rgba(128, 128, 128, 0.542);
+        height: 30vh;
+
+        h2{
+            margin-top: 40px;
+            font-size: 1.2em;
+        }
+    }
+}
+
 .representamos{
     display: flex;
     justify-content: center;
@@ -13,14 +36,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
       }
 
+
       &__text {
-        color: black;
-        text-align: center;
+        color: rgb(147, 70, 70);
         padding: 15px;
         border-radius: 20px;
-        background-color: rgba(128, 128, 128, 0.542);
+        background-color: rgba(128, 128, 128, 0.973);
+        
+
+        h2{
+            background-color: #ffffff74;
+            
+        }
       }
 
     .rep-1{

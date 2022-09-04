@@ -144,13 +144,16 @@ body .footer {
 
 .titulo {
   display: flex;
-  height: 350px;
+  height: 300px;
   text-align: center;
   justify-content: center;
 }
 .titulo .slide-bottom {
   display: inline-block;
   margin: 0 0.5rem;
+  color: rgba(29, 160, 242, 0.7019607843);
+  text-shadow: 0.1em 0.1em 0.2em black;
+  letter-spacing: 2px;
   -webkit-animation: slide-bottom 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-bottom 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -170,8 +173,8 @@ body .footer {
     transform: translateY(-100);
   }
   100% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
+    -webkit-transform: translateY(150px);
+    transform: translateY(150px);
   }
 }
 
@@ -269,6 +272,25 @@ body .footer {
   outline-color: red;
 }
 
+.hero2 {
+  margin: 30px;
+}
+.hero2 .hero__text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.542);
+  height: 30vh;
+}
+.hero2 .hero__text2 h2 {
+  margin-top: 40px;
+  font-size: 1.2em;
+}
+
 .representamos {
   display: flex;
   justify-content: center;
@@ -286,11 +308,13 @@ body .footer {
   align-items: center;
 }
 .representamos__text {
-  color: black;
-  text-align: center;
+  color: rgb(147, 70, 70);
   padding: 15px;
   border-radius: 20px;
-  background-color: rgba(128, 128, 128, 0.542);
+  background-color: rgba(128, 128, 128, 0.973);
+}
+.representamos__text h2 {
+  background-color: rgba(255, 255, 255, 0.4549019608);
 }
 .representamos .rep-1 {
   background-size: cover;
@@ -319,8 +343,8 @@ body .footer {
   height: 30vh;
 }
 .hero1 .hero__text1 h2 {
-  margin-top: 50px;
-  font-size: 10px;
+  margin-top: 40px;
+  font-size: 1.2em;
 }
 
 .container {
@@ -348,18 +372,6 @@ body .footer {
   height: 200px;
   margin-bottom: 15px;
   background-size: cover;
-}
-.container .cards .jug-1 {
-  background-image: url(/image/alvarez.png);
-}
-.container .cards .jug-2 {
-  background-image: url(/image/fedemateo.png);
-}
-.container .cards .jug-3 {
-  background-image: url(/image/banega.jpg);
-}
-.container .cards .jug-4 {
-  background-image: url(/image/godoy.jpg);
 }
 .container .cards .card__titulo {
   padding: 10px;

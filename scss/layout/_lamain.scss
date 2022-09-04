@@ -1,12 +1,13 @@
 .titulo{
     display: flex;
-    height: 350px;
+    height: 300px;
     text-align: center;
     justify-content: center;
 
     .slide-bottom {
         display: inline-block;
         margin: 0 0.5rem;
+        color:#1da0f2b3; text-shadow: 0.1em 0.1em 0.2em black; letter-spacing: 2px;
 
         -webkit-animation: slide-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -27,8 +28,8 @@
                           transform: translateY(-100);
                 }
                 100% {
-                  -webkit-transform: translateY(100px);
-                          transform: translateY(100px);
+                  -webkit-transform: translateY(150px);
+                          transform: translateY(150px);
                 }
             }
     }

@@ -6,12 +6,14 @@
         text-align: center;
         padding: 15px;
         border-radius: 20px;
+        
+
         background-color: rgba(128, 128, 128, 0.542);
         height: 30vh;
 
         h2{
-            margin-top: 50px;
-            font-size: 10px;
+            margin-top: 40px;
+            font-size: 1.2em;
         }
     }
 }
@@ -29,6 +31,8 @@
         border-radius: 15px;
         box-shadow: 5px 8px 12px black;
         overflow: hidden;
+
+        
         
 
         &:hover{
@@ -43,22 +47,10 @@
             height: 200px;
             margin-bottom: 15px;
             background-size: cover;
+
+            
         }
 
-            .jug-1{
-                background-image: url(/image/alvarez.png);
-            }
-            .jug-2{
-                background-image: url(/image/fedemateo.png);
-            }
-            .jug-3{
-                background-image: url(/image/banega.jpg);
-            }
-            .jug-4{
-                background-image: url(/image/godoy.jpg);
-            }
-        
-            
         
         .card__titulo{
             padding: 10px;
