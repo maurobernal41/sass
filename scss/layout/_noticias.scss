@@ -17,7 +17,7 @@
         flex-direction: column;
         height: 150px;
         background-color: #1726427e;;
-        text-align: flex-end;
+        text-align: center;
         justify-content: center;
         border: solid black 2px;
 
@@ -90,7 +90,7 @@
         }
     }
 
-    @media(min-width: 1024px)and (max-width:1500px) {
+    @media(min-width: 1024px)and (max-width:3000px) {
 
         display: grid;
         grid-template-columns: 40% 40% 20%;

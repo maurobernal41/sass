@@ -1,24 +1,21 @@
 .hero2{
     margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.542);
+    height: 20vh;
 
-    .hero__text2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: black;
-        text-align: center;
-        padding: 15px;
-        border-radius: 20px;
-        
-
-        background-color: rgba(128, 128, 128, 0.542);
-        height: 30vh;
-
-        h2{
-            margin-top: 40px;
-            font-size: 1.2em;
-        }
+    
+    h1{
+        font-size: 4vw;
     }
+
+   
 }
 
 .representamos{

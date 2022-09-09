@@ -1,16 +1,33 @@
 .titulo{
     display: flex;
-    height: 300px;
-    text-align: center;
+    height: 65vh ;
+    //text-align: center;
     justify-content: center;
 
     .slide-bottom {
         display: inline-block;
         margin: 0 0.5rem;
-        color:#1da0f2b3; text-shadow: 0.1em 0.1em 0.2em black; letter-spacing: 2px;
+        color:#1da0f2b3; 
+        text-shadow: 0.1em 0.1em 0.2em black;
+        letter-spacing: 5px;
+        text-align: center;
 
-        -webkit-animation: slide-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        -webkit-animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+          @media (min-width: 780px )and (max-width:1023px){
+            text-shadow: 0.1em 0.1em 0.2em black; 
+            letter-spacing: 6px;
+            font-size: 4em;
+            text-align: center;
+          }
+
+          @media (min-width: 1024px){
+            text-shadow: 0.1em 0.1em 0.2em black; 
+            letter-spacing: 6px;
+            font-size: 5em;
+            text-align: center;
+          }
 
             @-webkit-keyframes slide-bottom {
                 0% {

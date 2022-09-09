@@ -1,24 +1,25 @@
 .articulos{
     margin: 15px;
     border: white solid 2px;
-    height: auto;
+    //height: 100%;
     background-color: rgb(255, 255, 255);
 
     figure{
         display: inline-block;
         border: solid 2px black;
+        width: 100%;
 
         img{
             width: 100%;
         }
         figcaption{
             // position: absolute;
-            background-color: rgba(0, 0, 0, 0.607);
+            background-color: rgba(0, 0, 0, 0.534);
             left: 0px;
             bottom: 0px;
             width: 100%;
-            padding-top: 2%;
-            padding-bottom: 2%;
+           padding-top: 1.5%;
+           padding-bottom: 1.5%;
             color: white;
             font-size: 1.4em;
             text-align: center;
@@ -32,7 +33,7 @@
         padding: 10px;
     }
 
-    h4{
+    h3{
         text-align: justify;
         color: #0e4961;
     }
