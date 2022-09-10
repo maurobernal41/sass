@@ -6,6 +6,7 @@
 }
 
 .articulos {
+  margin: 30px;
   border: white solid 2px;
   background-color: rgb(255, 255, 255);
 }
@@ -59,7 +60,7 @@ body {
   background-size: cover;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: auto auto 20vw;
+  grid-template-rows: auto auto auto;
   grid-template-areas: "header" "main" "footer";
 }
 body header {
@@ -70,11 +71,6 @@ body main {
 }
 body .footer {
   grid-area: footer;
-}
-@media (min-width: 1024px) and (max-width: 3000px) {
-  body {
-    grid-template-rows: auto auto 10vw;
-  }
 }
 
 .header {
@@ -205,14 +201,13 @@ body .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 80px;
 }
 .footer .icons {
   display: flex;
   column-gap: 15px;
   width: 70vw;
   justify-content: space-evenly;
-  align-items: center;
 }
 .footer .icons .icon {
   width: 4em;
@@ -438,8 +433,8 @@ body .footer {
 .noticias {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(5, auto) 20vw;
-  grid-gap: 10px;
+  grid-template-rows: repeat(6, auto);
+  grid-gap: 40px;
   grid-template-areas: "titulo" "noticia1" "noticia3" "noticia2" "noticia4" "banner ";
 }
 .noticias .titulo {
@@ -474,7 +469,7 @@ body .footer {
   .noticias {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(3, auto) 30vw;
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: "titulo    titulo" "noticia1 noticia3" "noticia2 noticia4" "banner banner    ";
   }
   .noticias .titulo {
@@ -502,8 +497,8 @@ body .footer {
 @media (min-width: 1024px) and (max-width: 3000px) {
   .noticias {
     display: grid;
-    grid-template-columns: 40% 40% 20%;
-    grid-template-rows: repeat(3, auto) 30vw;
+    grid-template-columns: 40% 40% 15%;
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: "titulo   titulo    titulo" "noticia1 noticia3 aside" "noticia2 noticia4 aside" "banner banner banner";
   }
   .noticias .titulo {
@@ -694,4 +689,4 @@ body .footer {
   color: #0e0e0e;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */

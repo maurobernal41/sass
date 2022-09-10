@@ -1,7 +1,8 @@
 .noticias {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: repeat(5, auto) 20vw;
+    grid-gap: 10px;
 
     grid-template-areas:
         "titulo"
@@ -10,6 +11,7 @@
         "noticia2"
         "noticia4"
         "banner ";
+  
 
     .titulo{
         grid-area: titulo;
@@ -52,7 +54,7 @@
     @media (min-width: 780px)and (max-width:1023px) {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(4, auto);
+        grid-template-rows: repeat(3, auto) 30vw;
 
         grid-template-areas:
             "titulo    titulo"
@@ -94,9 +96,9 @@
 
         display: grid;
         grid-template-columns: 40% 40% 20%;
-        grid-template-rows: repeat(4, auto);
+        grid-template-rows: repeat(3, auto) 30vw;
 
-        grid-template-areas:
+        grid-template-areas: 
             "titulo   titulo    titulo"
             "noticia1 noticia3 aside"
             "noticia2 noticia4 aside"
@@ -125,6 +127,7 @@
 
         .aside {
             grid-area: aside;
+            
         }
 
         .carusel {
