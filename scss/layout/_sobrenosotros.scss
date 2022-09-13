@@ -3,11 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: rgba(128, 128, 128, 0.542);
+
+    @include hero__text;
+    //color: black;
+    //text-align: center;
+    //padding: 15px;
+    //border-radius: 20px;
+    background-color:$background-sombra;
     height: 20vh;
 
     

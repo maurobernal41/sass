@@ -1,3 +1,6 @@
+@import './utils/mixin';
+@import './utils/variable';
+
 //base
 @import './base/reset';
 @import './base/art-noticias';
@@ -19,7 +22,6 @@
 
 //utils
 
-@import './utils/mixin';
-@import './utils/variable';
+
 
 

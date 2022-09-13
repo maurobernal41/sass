@@ -11,6 +11,7 @@
         text-shadow: 0.1em 0.1em 0.2em black;
         letter-spacing: 5px;
         text-align: center;
+        height: 150px;
 
         -webkit-animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -18,21 +19,21 @@
           @media (min-width: 780px )and (max-width:1023px){
             text-shadow: 0.1em 0.1em 0.2em black; 
             letter-spacing: 6px;
-            font-size: 4em;
+            font-size: 2.7em;
             text-align: center;
           }
 
           @media (min-width: 1024px){
             text-shadow: 0.1em 0.1em 0.2em black; 
             letter-spacing: 6px;
-            font-size: 5em;
+            font-size: 4.5em;
             text-align: center;
           }
 
             @-webkit-keyframes slide-bottom {
                 0% {
-                  -webkit-transform: translateY(-100px);
-                          transform: translateY(-100px);
+                  -webkit-transform: translateY(100px);
+                          transform: translateY(100px);
                 }
                 100% {
                   -webkit-transform: translateY(80px);
@@ -45,8 +46,8 @@
                           transform: translateY(-100);
                 }
                 100% {
-                  -webkit-transform: translateY(150px);
-                          transform: translateY(150px);
+                  -webkit-transform: translateY(20vh);
+                          transform: translateY(20vh);
                 }
             }
     }

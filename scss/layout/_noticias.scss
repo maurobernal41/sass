@@ -5,7 +5,7 @@
     grid-gap: 10px;
 
     grid-template-areas:
-        "titulo"
+        "hero1"
         "noticia1"
         "noticia3"
         "noticia2"
@@ -13,15 +13,15 @@
         "banner ";
   
 
-    .titulo{
-        grid-area: titulo;
-        display: flex;
-        flex-direction: column;
-        height: 150px;
-        background-color: #1726427e;;
-        text-align: center;
-        justify-content: center;
-        border: solid black 2px;
+    .hero1{
+        grid-area: hero1;
+        // display: flex;
+        // flex-direction: column;
+        // height: 150px;
+        // background-color: #1726427e;
+        // text-align: center;
+        // justify-content: center;
+        // border: solid black 2px;
 
       
     }
@@ -57,13 +57,13 @@
         grid-template-rows: repeat(3, auto) 30vw;
 
         grid-template-areas:
-            "titulo    titulo"
+            "hero1    hero1"
             "noticia1 noticia3"
             "noticia2 noticia4"
             "banner banner    ";
 
-        .titulo{
-            grid-area: titulo;
+        .hero1{
+            grid-area: hero1;
         }
 
         &__articulo1 {
@@ -99,13 +99,13 @@
         grid-template-rows: repeat(3, auto) 30vw;
 
         grid-template-areas: 
-            "titulo   titulo    titulo"
+            "hero1   hero1    hero1"
             "noticia1 noticia3 aside"
             "noticia2 noticia4 aside"
             "banner banner banner";
 
-        .titulo{
-            grid-area: titulo;
+        .hero1{
+            grid-area: hero1;
         }
 
         &__articulo1 {

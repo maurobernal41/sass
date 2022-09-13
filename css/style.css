@@ -161,6 +161,7 @@ body .footer {
   text-shadow: 0.1em 0.1em 0.2em black;
   letter-spacing: 5px;
   text-align: center;
+  height: 150px;
   -webkit-animation: slide-bottom 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-bottom 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -168,7 +169,7 @@ body .footer {
   .titulo .slide-bottom {
     text-shadow: 0.1em 0.1em 0.2em black;
     letter-spacing: 6px;
-    font-size: 4em;
+    font-size: 2.7em;
     text-align: center;
   }
 }
@@ -176,14 +177,14 @@ body .footer {
   .titulo .slide-bottom {
     text-shadow: 0.1em 0.1em 0.2em black;
     letter-spacing: 6px;
-    font-size: 5em;
+    font-size: 4.5em;
     text-align: center;
   }
 }
 @-webkit-keyframes slide-bottom {
   0% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
   }
   100% {
     -webkit-transform: translateY(80px);
@@ -196,8 +197,8 @@ body .footer {
     transform: translateY(-100);
   }
   100% {
-    -webkit-transform: translateY(150px);
-    transform: translateY(150px);
+    -webkit-transform: translateY(20vh);
+    transform: translateY(20vh);
   }
 }
 
@@ -215,8 +216,8 @@ body .footer {
   align-items: center;
 }
 .footer .icons .icon {
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -229,7 +230,7 @@ body .footer {
   transition-duration: 0.25s;
 }
 .footer .icons .icon i {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 .footer .icons .icon:hover {
   outline-offset: 4px;
@@ -254,13 +255,13 @@ body .footer {
 }
 @media (min-width: 780px) and (max-width: 1023px) {
   .footer .icons .icon {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     border-radius: 50%;
     outline: 2px solid #fff;
@@ -268,18 +269,18 @@ body .footer {
     transition-duration: 0.25s;
   }
   .footer .icons .icon i {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 @media (min-width: 1024px) {
   .footer .icons .icon {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     border-radius: 50%;
     outline: 2px solid #fff;
@@ -287,7 +288,7 @@ body .footer {
     transition-duration: 0.25s;
   }
   .footer .icons .icon i {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 .footer .icons .icon--instagram:hover {
@@ -316,7 +317,7 @@ body .footer {
   text-align: center;
   padding: 15px;
   border-radius: 20px;
-  background-color: rgba(128, 128, 128, 0.542);
+  background-color: rgba(23, 38, 66, 0.4941176471);
   height: 20vh;
 }
 .hero2 h1 {
@@ -367,14 +368,15 @@ body .footer {
   margin: 30px;
 }
 .hero1 .hero__text1 {
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
   flex-direction: column;
-  padding: 15px;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.542);
+  background-color: rgba(23, 38, 66, 0.4941176471);
   height: 30vh;
 }
 .hero1 .hero__text1 h2 {
@@ -440,17 +442,10 @@ body .footer {
   grid-template-columns: 100%;
   grid-template-rows: repeat(5, auto) 20vw;
   grid-gap: 10px;
-  grid-template-areas: "titulo" "noticia1" "noticia3" "noticia2" "noticia4" "banner ";
+  grid-template-areas: "hero1" "noticia1" "noticia3" "noticia2" "noticia4" "banner ";
 }
-.noticias .titulo {
-  grid-area: titulo;
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-  background-color: rgba(23, 38, 66, 0.4941176471);
-  text-align: center;
-  justify-content: center;
-  border: solid black 2px;
+.noticias .hero1 {
+  grid-area: hero1;
 }
 .noticias .noticias__articulo1 {
   grid-area: noticia1;
@@ -475,10 +470,10 @@ body .footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, auto) 30vw;
-    grid-template-areas: "titulo    titulo" "noticia1 noticia3" "noticia2 noticia4" "banner banner    ";
+    grid-template-areas: "hero1    hero1" "noticia1 noticia3" "noticia2 noticia4" "banner banner    ";
   }
-  .noticias .titulo {
-    grid-area: titulo;
+  .noticias .hero1 {
+    grid-area: hero1;
   }
   .noticias__articulo1 {
     grid-area: noticia1;
@@ -504,10 +499,10 @@ body .footer {
     display: grid;
     grid-template-columns: 40% 40% 20%;
     grid-template-rows: repeat(3, auto) 30vw;
-    grid-template-areas: "titulo   titulo    titulo" "noticia1 noticia3 aside" "noticia2 noticia4 aside" "banner banner banner";
+    grid-template-areas: "hero1   hero1    hero1" "noticia1 noticia3 aside" "noticia2 noticia4 aside" "banner banner banner";
   }
-  .noticias .titulo {
-    grid-area: titulo;
+  .noticias .hero1 {
+    grid-area: hero1;
   }
   .noticias__articulo1 {
     grid-area: noticia1;
