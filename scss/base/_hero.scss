@@ -1,0 +1,63 @@
+//jugadores
+.hero1{
+
+    margin: 30px;
+
+    .hero__text1{
+        @include hero__text;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //color: black;
+        flex-direction: column;
+        //padding: 15px;
+        //border-radius: 20px;
+        
+        
+        background-color:$background-sombra;
+        height: 30vh;
+
+        h2{
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+        &__vector{
+            width: 2.5em;
+            height: 2.5em;
+            color: white;
+            margin-left: 20px;
+
+            &:hover{
+                color: white;
+                transform: rotateZ(256deg);
+                transition-duration: 2s;
+                
+               
+            }
+        }
+    }
+}
+
+
+//sobre nosotros
+.hero2{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include hero__text;
+    //color: black;
+    //text-align: center;
+    //padding: 15px;
+    //border-radius: 20px;
+    background-color:$background-sombra;
+    height: 20vh;
+
+    
+    h1{
+        font-size: 4vw;
+    }
+
+   
+}

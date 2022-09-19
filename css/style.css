@@ -51,6 +51,53 @@
   object-fit: cover;
 }
 
+.hero1 {
+  margin: 30px;
+}
+.hero1 .hero__text1 {
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(23, 38, 66, 0.4941176471);
+  height: 30vh;
+}
+.hero1 .hero__text1 h2 {
+  margin-top: 40px;
+  font-size: 1.8em;
+}
+.hero1 .hero__text1__vector {
+  width: 2.5em;
+  height: 2.5em;
+  color: white;
+  margin-left: 20px;
+}
+.hero1 .hero__text1__vector:hover {
+  color: white;
+  transform: rotateZ(256deg);
+  transition-duration: 2s;
+}
+
+.hero2 {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(23, 38, 66, 0.4941176471);
+  height: 20vh;
+}
+.hero2 h1 {
+  font-size: 4vw;
+}
+
 body {
   background-image: url(../image/stadium2.gif);
   background-attachment: fixed;
@@ -308,22 +355,6 @@ body .footer {
   outline-color: red;
 }
 
-.hero2 {
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  text-align: center;
-  padding: 15px;
-  border-radius: 20px;
-  background-color: rgba(23, 38, 66, 0.4941176471);
-  height: 20vh;
-}
-.hero2 h1 {
-  font-size: 4vw;
-}
-
 .representamos {
   display: flex;
   justify-content: center;
@@ -362,26 +393,6 @@ body .footer {
 .representamos .representamos__seccion h5 {
   background-color: rgba(255, 255, 255, 0.4549019608);
   text-align: justify;
-}
-
-.hero1 {
-  margin: 30px;
-}
-.hero1 .hero__text1 {
-  color: black;
-  text-align: center;
-  padding: 15px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgba(23, 38, 66, 0.4941176471);
-  height: 30vh;
-}
-.hero1 .hero__text1 h2 {
-  margin-top: 40px;
-  font-size: 1.5em;
 }
 
 .tarjetas {
