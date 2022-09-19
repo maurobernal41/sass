@@ -375,6 +375,7 @@ body .footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
   flex-direction: column;
   background-color: rgba(23, 38, 66, 0.4941176471);
   height: 30vh;
@@ -399,6 +400,7 @@ body .footer {
   background-color: white;
   width: 250px;
   height: auto;
+  overflow: scroll;
   margin: 10px;
   border-radius: 15px;
   box-shadow: 5px 8px 12px black;
@@ -422,7 +424,9 @@ body .footer {
   background-color: rgba(29, 160, 242, 0.7019607843);
 }
 .tarjetas .cards .card__parrafo {
+  max-height: 40vh;
   padding: 10px;
+  overflow: auto;
 }
 .tarjetas .cards a {
   background-color: black;

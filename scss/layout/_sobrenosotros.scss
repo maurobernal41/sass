@@ -1,8 +1,7 @@
 .hero2{
     margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    @include titulos;
 
     @include hero__text;
     //color: black;
