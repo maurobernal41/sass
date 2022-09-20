@@ -1,28 +1,5 @@
 
 
-.hero1{
-
-    margin: 30px;
-
-    .hero__text1{
-        @include hero__text;
-        @include titulos;
-        color: black;
-        flex-direction: column;
-        //padding: 15px;
-        //border-radius: 20px;
-        
-        
-        background-color:$background-sombra;
-        height: 30vh;
-
-        h2{
-            margin-top: 40px;
-            font-size: 1.5em;
-        }
-    }
-}
-
 .tarjetas{
     display: flex;
     justify-content: center;

@@ -1,0 +1,47 @@
+
+.hero1{
+
+    margin: 30px;
+
+    .hero__text1{
+        @include hero__text;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        background-color:$background-sombra;
+        height: 30vh;
+
+        h1{
+            color: $colorLetraHero;
+            text-shadow: 1px 1px 2px black, 
+        }
+
+        h2{
+            margin-top: 40px;
+            font-size: 1.3em;
+            color: $colorLetraHero;
+
+            @media (min-width: 1024px)and (max-width:3000px){
+                font-size: 1.6em;
+            }
+        }
+        &__vector{
+            width: 2.5em;
+            height: 2.5em;
+            color: white;
+            margin-right: 70px;
+
+            &:hover{
+                cursor: pointer;
+                
+                transform:translateX(50px) rotateZ(500deg) ;
+                transition-duration: 4s
+                
+               
+            }
+        }
+    }
+}
+
+

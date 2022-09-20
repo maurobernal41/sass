@@ -1,24 +1,3 @@
-.hero2{
-    margin: 30px;
-
-    @include titulos;
-
-    @include hero__text;
-    //color: black;
-    //text-align: center;
-    //padding: 15px;
-    //border-radius: 20px;
-    background-color:$background-sombra;
-    height: 20vh;
-
-    
-    h1{
-        font-size: 4vw;
-    }
-
-   
-}
-
 .representamos{
     display: flex;
     justify-content: center;
